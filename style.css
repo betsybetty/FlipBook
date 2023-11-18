@@ -139,6 +139,9 @@ input {
     transform: rotateY(-180deg);
     z-index: 2;
 }
+#checkbox-p1:checked ~ .book {
+    transform: translateX(200px);
+}
 #checkbox-p2:checked ~ .book #p2{
     transform: rotateY(-180deg);
     z-index: 3;
