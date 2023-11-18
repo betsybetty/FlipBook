@@ -135,12 +135,12 @@ input {
 #checkbox-cover:checked ~ .book .page{
     box-shadow: 0 0 3px rgb(99,98, 98);
 }
+#checkbox-p1:checked ~ .book {
+    transform: translateX(200px);
+}
 #checkbox-p1:checked ~ .book #p1{
     transform: rotateY(-180deg);
     z-index: 2;
-}
-#checkbox-p1:checked ~ .book {
-    transform: translateX(200px);
 }
 #checkbox-p2:checked ~ .book #p2{
     transform: rotateY(-180deg);
@@ -170,3 +170,4 @@ input {
     transform: rotateY(-180deg);
     z-index: 9;
 }
+
